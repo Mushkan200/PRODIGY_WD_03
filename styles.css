@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url(https://img.freepik.com/premium-photo/vibrant-neon-wall-background_162944-1972.jpg);
+    background-size: 100% 100%;
+}
+
+.tic-tac-toe {
+    background-color: rgb(138, 236, 129);
+    border: 5px thick double #b028d2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
